@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-  width: 227px;
+  width: 300px;
+  height: 300px;
 }
 
 #container {
@@ -39,11 +40,19 @@ body {
     cursor: pointer;
     margin-top: 10px;
     font-size: 13px;
+    transition: opacity 0.3s ease;
 }
 
-#add-task:active:hover{
+#add-task:hover{
   background-color: blue;
   color: white;
+  transition-duration: 0.1s;
+}
+
+
+#add-task:active{
+  background-color: #fff;
+  color: blue;
   transition-duration: 0.1s;
 }
 
@@ -51,4 +60,42 @@ body {
   margin-top: 20px;
   list-style: none;
   padding: 0;
+}
+
+
+#task-list li{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: #e0e0e0;
+      margin-bottom: 5px;
+      border-radius: 4px;
+      overflow: hidden;
+}
+
+#task-list li span{
+  flex-grow: 1;
+  margin-left: 10px;
+  word-break: break-all;
+  display: flex;
+}
+
+input[type='checkbox'] {
+    cursor: pointer;
+}
+ 
+button:not(#add-task){
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:not(#add-task):hover{
+  background-color: blue;
+  color: white;
+  transition-duration: 0.1s;
+  opacity: 0.8 ;
 }

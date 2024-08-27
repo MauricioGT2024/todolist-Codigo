@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome To-Do",
+    "description": "un Organizador de tareas de prueba. ",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII",
+        "32": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII",
+        "128": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII"
+    }
+}
