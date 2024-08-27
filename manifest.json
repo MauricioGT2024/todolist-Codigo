@@ -10,8 +10,8 @@
         "storage"
     ],
     "icons": {
-        "16": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII",
-        "32": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII",
-        "128": "FGwvhaO8vkfY2wOzfAPhpJIoa5g7ViDFzWiK9bJVjS2DaOowSv4iUROGatfwDQdebL5XBHAsAAAAASUVORK5CYII"
+        "16": "/todolist-extension/icons/todolist.png",
+        "32": "/todolist-extension/icons/todolist.png",
+        "128": "/todolist-extension/icons/todolist.png"
     }
 }
