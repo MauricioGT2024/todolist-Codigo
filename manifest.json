@@ -10,8 +10,8 @@
         "storage"
     ],
     "icons": {
-        "16": "/todolist-extension/icons/todolist.png",
-        "32": "/todolist-extension/icons/todolist.png",
-        "128": "/todolist-extension/icons/todolist.png"
+        "16": "todolist.png",
+        "32": "todolist.png",
+        "128": "todolist.png"
     }
 }
